@@ -1,5 +1,5 @@
 {
-  "name": "crossorigin.me",
+  "name": "github-pages-cors-proxy",
   "description": "Long live CORS proxies!",
   "keywords": [
     "cors",

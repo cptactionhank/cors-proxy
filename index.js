@@ -119,7 +119,7 @@ var http = require('http'),
 				break;
 			default:
 				res.setTimeout(25000);
-				res.setHeader('Access-Control-Allow-Origin', '*');
+				res.setHeader('Access-Control-Allow-Origin', 'cptactionhank.github.io');
 				res.setHeader('Access-Control-Allow-Credentials', false);
 				res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 				res.setHeader('Expires', new Date(Date.now() + 86400000).toUTCString()); // one day in the future

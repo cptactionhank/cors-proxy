@@ -7,7 +7,7 @@ var port = process.env.PORT || 8080
 http.createServer(function (req, res) {
   console.log(req);
   res.setTimeout(25000)
-  res.setHeader('Access-Control-Allow-Origin', '*')
+  res.setHeader('Access-Control-Allow-Origin', 'cptactionhank.github.io')
   try {
     request(req.url.slice(1), {encoding: null}, function(error, response, body) {
       res.write(body)
